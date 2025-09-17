@@ -46,6 +46,5 @@
 - git commit -m "내용" : 버전 생성 내용 -> Add lecture("내용"에 치기)
 - git config --global user.email "you@example.com"
 - git config --global user.name "Your Name"
-
 - git add와 commit 로컬에서 행위(글로벌 변화 x)
 - git push origin main : Local의 commit으로 생성한 버전을 글로벌에 업로드
