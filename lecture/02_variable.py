@@ -52,3 +52,9 @@
 # - Python은 char형(문자형) 존재 x
 # - JAVA, C에서는 ''(char), ""(str)
 # - python은 '', "" 모두 str형(문자열형)
+
+# 6. 동적 출력
+print("123") # 하드 코딩(고정 값), 지양
+
+student_grade = 3
+print(student_grade) # 3 출력
