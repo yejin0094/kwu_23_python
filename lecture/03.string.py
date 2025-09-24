@@ -14,7 +14,7 @@ lang = 'python'
 # 시험문제
 print(lang[0]) # p
 print(lang[1]) # t
-print(lang[10]) # Error: index out of range 영타 350이상
+# print(lang[10]) # Error: index out of range 영타 350이상
 
 # 3. 역 인덱스(Reverse index)
 # - 인덱스(좌 -> 우, 0번부터 시작)
@@ -83,6 +83,11 @@ b = "ter@naver.com"
 c = "cherry@.daum.net"
 # @앞의 ID만 추출하는 코드 작성
 # 정답: abc123, ter, cherry
+# 내 추측 슬라이싱
+
+print(a[:6])
+print(b[:3])
+print(c[:6])
 
 # 숙제 - 2
 d = "www.google.com"
@@ -90,3 +95,7 @@ e = "www.naver.com"
 f = "www.daum.net"
 # 가운데 도메인만 추출하는 코드 작성
 # 정답: google, naver, daum
+
+print(d[4:10])
+print(e[4:9])
+print(f[4:8])
