@@ -1,0 +1,12 @@
+# requirements는 이 프로젝트에 필요한 라이브러리의 목록을 작성함
+python-dotenv # 라이브러리 이름
+pandas
+numpy
+requests
+langchain-community
+langchain-openai
+langchain
+langgraph
+openpyxl
+pymongo
+pymysql
