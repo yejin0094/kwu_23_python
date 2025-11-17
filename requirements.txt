@@ -10,3 +10,5 @@ langgraph
 openpyxl
 pymongo
 pymysql
+pypdf
+chromadb
