@@ -48,3 +48,30 @@
 - git config --global user.name "Your Name"
 - git add와 commit 로컬에서 행위(글로벌 변화 x)
 - git push origin main : Local의 commit으로 생성한 버전을 글로벌에 업로드
+
+## 2. Project Chatbot
+### 2-1. 구조
+ - frontend: 사용자 화면 인터페이스
+ - backend: 서비스(만들려고 하는 앱)
+    ㄴ ai(langchain)
+    ㄴ database
+
+### 2-2. frontend
+ - 웹 표준: HTML, CSS, Javascript
+ - -> 프론트엔드 프레임워크: React.js, Vue.js, ...
+
+ ### 2-3. backend
+  -  Python: Django(Web), Flask, FastAPI(AI)
+  - -> Fast API 점유율 올라감 ↑
+  - main(컨트롤 타워, 무조건 여기로 옴) -> router(기능별 분류: 어떤 서비스로 갈건지, 어디로 가라고 쳐냄) -> service(실제 동작) -> CRUD(DB: 작업을 한 것을 데이터베이스에 저장)
+    => 기능별로 다 만듬, 결제, 상품, 게시판 글쓰기, ...
+   - DTO: 특정 데이터를 전달...? transfor data...?
+
+
+### 2-4. Chatbot(AI)
+ - Langchain(프레임워크) + OpenAI GPT(model)
+ - -> 고도화: LangChain + LangGraph + Model
+
+### 2-5. Database
+ - PostgreSQL 사용(Hybrid DB)
+ -  ㄴ RDB + NoSQL
